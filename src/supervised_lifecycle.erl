@@ -26,7 +26,7 @@
 
 -module(supervised_lifecycle).
 
--behavior(gen_server).
+-behaviour(gen_server).
 
 -export([start_link/3]).
 
